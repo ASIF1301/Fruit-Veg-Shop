@@ -1,5 +1,9 @@
 # Fruit-Veg-Shop
 
+#🌍 Live Demo :
+
+Frontend hosted : http://127.0.0.1:5500/frontend/index.html
+
 # 🥦 Fruit & Veg Shop
 
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js&logoColor=white)
@@ -7,7 +11,6 @@
 ![MySQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![GitHub Pages](https://img.shields.io/badge/Live-Demo-brightgreen?logo=github)
-
 
 A simple **E-commerce website** for buying fruits and vegetables.  
 Built with **Node.js + Express + MySQL (backend)** and **HTML, CSS, JS (frontend)**.  
@@ -57,7 +60,3 @@ Fruit_Veg_Shop/
 │ └── js/
 │
 └── README.md
-
-🌍 Live Demo :
-
-Frontend hosted : http://127.0.0.1:5500/frontend/index.html
