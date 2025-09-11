@@ -2,7 +2,7 @@
 
 #🌍 Live Demo :
 
-Frontend hosted : http://127.0.0.1:5500/frontend/index.html
+Frontend hosted :  https://asif1301.github.io/Fruit-Veg-Shop/
 
 # 🥦 Fruit & Veg Shop
 
