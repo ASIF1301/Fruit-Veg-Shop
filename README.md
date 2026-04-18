@@ -1,62 +1,105 @@
-# Fruit-Veg-Shop
+# 🛒 FreshMart - Fruits & Vegetables E-commerce Website
 
-#🌍 Live Demo :
+## 📌 Overview
 
-Frontend hosted :  https://asif1301.github.io/Fruit-Veg-Shop/
-
-# 🥦 Fruit & Veg Shop
-
-![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-Backend-blue?logo=express&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-Database-orange?logo=mysql&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![GitHub Pages](https://img.shields.io/badge/Live-Demo-brightgreen?logo=github)
-
-A simple **E-commerce website** for buying fruits and vegetables.  
-Built with **Node.js + Express + MySQL (backend)** and **HTML, CSS, JS (frontend)**.  
-Frontend is hosted on **GitHub Pages**, backend runs locally or can be deployed to a cloud service.
-
----
-
-## ✨ Features
-- 🛒 Browse fresh fruits and vegetables  
-- ➕ Add items to cart (stored in localStorage)  
-- 👤 User login & registration (stored in MySQL)  
-- 📦 Checkout and order saving  
-- 🔑 Passwords stored securely with hashing  
+FreshMart is a simple e-commerce web application designed for buying fruits and vegetables online. It allows users to browse products, add them to a cart, and place orders. The project focuses on demonstrating full-stack development using Spring Boot for backend and basic web technologies for frontend.
 
 ---
 
 ## 🚀 Tech Stack
-**Frontend**  
-- HTML, CSS, Vanilla JS  
 
-**Backend**  
-- Node.js  
-- Express.js  
-- MySQL  
-- bcryptjs  
+**Frontend:**
+
+* HTML
+* CSS
+* JavaScript
+
+**Backend:**
+
+* Spring Boot (Java)
+
+**Database:**
+
+* SQL (MySQL / any relational DB)
+
+---
+
+## ✨ Features
+
+* 🔐 User Registration & Login
+* 🛍️ Browse fruits and vegetables
+* ➕ Add products to cart
+* 🛒 View and manage cart
+* ✅ Checkout functionality
+* 📦 Order placement
+
+---
+
+## ⚠️ Limitations
+
+* No authentication tokens (JWT not implemented)
+* No online payment gateway (Cash-based / basic checkout only)
+* Basic UI (focused more on functionality than design)
 
 ---
 
 ## 📂 Project Structure
-Fruit_Veg_Shop/
+
+```
+project-root/
 │
-├── backend/ # Node.js + Express backend
-│ ├── server.js
-│ ├── db.js
-│ └── data/
-│ ├── products.json
-│ └── orders.json
-│
-├── frontend/ # Frontend files (HTML, CSS, JS)
-│ ├── index.html
-│ ├── products.html
-│ ├── cart.html
-│ ├── checkout.html
-│ ├── login.html
-│ ├── register.html
-│ ├── css/
-│ └── js/
-│
+├── frontend/        # HTML, CSS, JS files
+├── backend/         # Spring Boot application
+├── database/        # SQL scripts
 └── README.md
+```
+
+---
+
+## 🛠️ How to Run the Project
+
+### 1️⃣ Clone the Repository
+
+```
+git clone <your-repo-link>
+cd <project-folder>
+```
+
+### 2️⃣ Setup Backend (Spring Boot)
+
+* Open backend folder in IDE (IntelliJ / Eclipse)
+* Configure database in `application.properties`
+* Run the Spring Boot application
+
+### 3️⃣ Setup Database
+
+* Create a database in MySQL
+* Import SQL scripts (if provided)
+
+### 4️⃣ Run Frontend
+
+* Open `index.html` in browser
+  OR
+* Use Live Server (recommended)
+
+---
+
+## 🎯 Future Improvements
+
+* Add JWT Authentication
+* Integrate Payment Gateway (Razorpay / Stripe)
+* Improve UI/UX design
+* Add Admin Panel
+* Order tracking system
+
+## 🙌 Author
+
+**Asif**
+Aspiring Software Engineer | Java Developer
+
+---
+
+## ⭐ Contribution
+
+Feel free to fork this repository and improve the project!
+
