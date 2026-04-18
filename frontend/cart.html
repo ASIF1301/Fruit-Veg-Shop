@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">FreshMart 🥦</h2>
+        <ul class="nav-links">
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </nav>
+
+    <section class="cart">
+        <h2>Your Cart 🛒</h2>
+
+        <div id="cart-container"></div>
+
+        <h3 id="total-price"></h3>
+
+        <button onclick="goToCheckout()">Checkout</button>
+    </section>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h2 class="logo">FreshMart 🥦</h2>
+    </nav>
+
+    <section class="checkout">
+
+        <h2>Checkout 🧾</h2>
+
+        <!-- Order Summary -->
+        <div id="order-summary"></div>
+        <h3 id="checkout-total"></h3>
+
+        <!-- Address Form -->
+        <form onsubmit="placeOrder(event)">
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="text" placeholder="City" required>
+            <input type="text" placeholder="Pincode" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+
+    </section>
+
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/checkout.js"></script>
+
+</body>
+</html>
